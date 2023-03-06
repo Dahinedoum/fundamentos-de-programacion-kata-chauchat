@@ -36,9 +36,9 @@ Sus principales problemas eran
 
 Nuestro ejercicio, será hacer una Chauchat virtual, que reproduzca su comportamiento.
 
-1. Por un lado habrás de crear una variable `cargador` donde habrá de guardar unos 7 **_"pium!"_**
+<!-- 1. Por un lado habrás de crear una variable `cargador` donde habrá de guardar unos 7 **_"pium!"_** -->
 
-2. El otro elemento será nuestra **chauchat**, que "hace cosas", y será donde pondremos el cargador para que haga cosas.
+<!-- 2. El otro elemento será nuestra **chauchat**, que "hace cosas", y será donde pondremos el cargador para que haga cosas.
 
     `chauchat(cargador)`
 
@@ -50,11 +50,11 @@ Nuestro ejercicio, será hacer una Chauchat virtual, que reproduzca su comportam
     pium!
     pium!
     pium!
-    ```
+    ``` -->
 
 -------------------------------------------------------------------------------
 
-_Zona premium:_
+<!-- _Zona premium:_
 
 Representaremos los 2 principales problemas:
 
@@ -64,9 +64,9 @@ Representaremos los 2 principales problemas:
 
     - Si se queda pillada, no habrá tiros y sólo mostrará un mensaje: _"Illo, me he quedao pillá!"_
 
-    En este enlace sabrás cómo generar números aleatorios: [Math.random()](https://www.w3schools.com/js/js_random.asp)
+    En este enlace sabrás cómo generar números aleatorios: [Math.random()](https://www.w3schools.com/js/js_random.asp) -->
 
-4. Para evitar que se caliente y se bloquee, cada 3 disparos se imprimirá un espacio:
+<!-- 4. Para evitar que se caliente y se bloquee, cada 3 disparos se imprimirá un espacio:
 
     ```
     pium!
@@ -80,4 +80,4 @@ Representaremos los 2 principales problemas:
     pium!
     pium!
     pium!
-    ```
+    ``` -->
