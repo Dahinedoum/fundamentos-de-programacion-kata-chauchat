@@ -1,20 +1,52 @@
-const cargador = ["pium!","pium!","pium!","pium!","pium!",
-"pium!","pium!","pium!","pium!"]; 
 
-let ramita = Math.floor(Math.random() * 7);
-let pillada = "Illo, me he quedao pillá!";
 
-for (let i = 0; i <= cargador.length; i++) {
-   
-    if(i % 3 === 0){
-        console.log(" ")
-    }
+
+
+
+
+
+
+function Chauchat(disparos){
+
+    let cargador = 7; 
+    let pillada = "Illo, me he quedao pillá!";
+
+    for (let i = 0; i <= cargador; i++) {
     
-    else if( i === ramita){
-        console.log(pillada)
+        const ramita = Math.random() > 0.8;
+
+        if(i % 3 === 0){
+            console.log(" ")
+        }
+        
+        else if(ramita){
+
+            console.log(pillada) 
+            break
+
+        }
+        console.log("pium!");
     }
+
     
-    console.log(cargador[i])
 }
 
+Chauchat()
 
+
+
+// Ejercicio complementario: 
+
+// function repetirString(String, Numero){
+
+//     let concatenar = "";
+//     for (let i=0; i < Numero; i++){
+
+//         concatenar += String
+//     }
+    
+//     console.log(concatenar)
+//     return concatenar;
+// }
+
+// repetirString("ja", 6)
